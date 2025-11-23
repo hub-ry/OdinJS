@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <script>
+  function add7(num) {
+    return num+7
+  }
+  console.log(add7(10))
+  function multiply(num1, num2) {
+    return num1 * num2
+  }
+  console.log(multiply(3,2))
+  function capitalize(word) {
+    word = word.toLowerCase()
+    word = word[0].toUpperCase() + word.slice(1)
+    return word
+  }
+  console.log(capitalize("tHiSWorld"))
+  function lastLetter(word) {
+    return word[(word.length - 1)]
+  }
+  console.log(lastLetter("ryan"))
+  </script>
+</body>
+</html>
